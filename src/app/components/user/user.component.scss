@@ -1,0 +1,22 @@
+.users {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.mat-card {
+  justify-content: center;
+  width: 400px;
+  height: 350px;
+}
+
+.mat-header {
+  flex-direction: column;
+}
+
+.mat-card-avatar {
+  margin: auto;
+}
+
+.mat-card-title, .mat-content {
+  text-align: center;
+}

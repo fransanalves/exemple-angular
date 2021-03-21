@@ -1,0 +1,14 @@
+<div class="users">
+  <ul *ngFor="let user of users">
+    <mat-card>
+      <mat-card-header class="mat-header">
+        <img mat-card-avatar src="{{user.avatar_url}}" alt="photos users github"/>
+        <mat-card-title>{{user.login}}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content class="mat-content">
+        <p>{{user.repos_url}}</p>
+        <p>{{user.subscriptions_url}}</p>
+      </mat-card-content>
+    </mat-card>
+  </ul>
+</div>
